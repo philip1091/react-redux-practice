@@ -1,0 +1,37 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+.app {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  .cities {
+    width: 30%;
+  }
+  .active-city {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    h3 {
+      margin-top: 0;
+    }
+    img{
+      margin-top: 8%;
+      width: 100%;
+    }
+  }
+}
+
+.list-group-item {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.selected{
+  border: 3px solid yellow;
+}
